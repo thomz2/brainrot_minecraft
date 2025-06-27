@@ -1,0 +1,27 @@
+{
+    "format_version": "1.21.90",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "demo:my_sword"
+        },
+        "tags": ["crafting_table"],
+        "pattern": ["e", "e", "#"],
+        "key": {
+            "#": {
+                "item": "minecraft:stick"
+            },
+            "e": {
+                "item": "demo:goo"
+            }
+            
+        },
+        "result": {
+            "item": "demo:my_sword"
+        },
+        "unlock": [
+            {
+                "item": "minecraft:ender_eye"
+            }
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "format_version": "1.21.70",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "thom:fat_guy",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/fat_guy"
+            },
+            "geometry": {
+                "default": "geometry.fat_guy"
+            },
+            "render_controllers": ["controller.render.fat_guy"],
+            "animations": {
+                "walk_controller": "controller.animation.fat_guy.walk",
+                "attack_controller": "controller.animation.fat_guy.attack",
+                "attack": "animation.fat_guy.attack",
+                "idle": "animation.fat_guy.idle",
+                "walk": "animation.fat_guy.walk"
+            },
+            "scripts": {
+                "animate": [
+                    "walk_controller",
+                    "attack_controller"
+                ]
+            },
+            "spawn_egg": {
+                "overlay_color": "#ff5050",
+                "base_color": "#d134b7"
+            }
+        }
+    }
+}

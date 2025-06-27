@@ -1,0 +1,28 @@
+{
+    "format_version": "1.21.70",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "overworld_underground_bookshelf_ore_feature",
+            "places_feature": "bookshelf_ore_feature"
+        },
+        "conditions": {
+            "placement_pass": "underground_pass"
+        },
+        "distribution": {
+            "iterations": 100,
+            "coordinate_eval_order": "zyx",
+            "x": {
+                "distribution": "uniform",
+                "extent": [0, 16]
+            },
+            "y": {
+                "distribution": "uniform",
+                "extent": [-60, 60]
+            },
+            "z": {
+                "distribution": "uniform",
+                "extent": [0, 16]
+            }
+        }
+    }
+}

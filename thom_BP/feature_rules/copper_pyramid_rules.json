@@ -1,0 +1,28 @@
+{
+	"format_version": "1.21.70",
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "mystructure:copper_pyramid_rules",
+			"places_feature": "mystructure:copper_pyramid"
+		},
+		"conditions": {
+			"placement_pass": "surface_pass"
+		},
+		"distribution": {
+			"iterations": 1,
+			"x": {
+				"extent": [0, 16],
+				"distribution": "uniform"
+			},
+			"y": "q.heightmap(v.worldx, v.worldz)", 
+			"z": {
+				"extent": [0, 16],
+				"distribution": "uniform"
+			},
+			"scatter_chance": {
+				"numerator": 1,
+				"denominator": 1000
+			}
+		}
+	}
+}
