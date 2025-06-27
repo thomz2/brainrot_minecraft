@@ -5,8 +5,9 @@ import {
 
 // 20 ticks equals 1 second in Minecraft
 function mainTick() {
-  if (system.currentTick % 1000 === 0) {
-    world.sendMessage("AAAAAAAAAAAHHHHHHHHHHH");
+  const seconds = 30
+  if (system.currentTick % (20*seconds) === 0) {
+    world.sendMessage("eh o amigo, amigo da galera");
   }
   system.run(mainTick);
 }

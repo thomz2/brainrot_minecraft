@@ -27,8 +27,8 @@
                 ]
             },
             "spawn_egg": {
-                "overlay_color": "#ff5050",
-                "base_color": "#d134b7"
+                "overlay_color": "#ff0000",
+                "base_color": "#ffef11"
             }
         }
     }
