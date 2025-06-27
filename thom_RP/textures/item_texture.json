@@ -2,12 +2,10 @@
   "resource_pack_name": "Goo Resource Pack",
   "texture_data": {
     "demo:my_sword": {
-          
-            "textures": "textures/items/my_sword"
-        },
+      "textures": "textures/items/my_sword"
+    },
     "demo:goo": {
       "textures": "textures/items/mango"
     }
   }
 }
-
